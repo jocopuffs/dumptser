@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import dumb from "/Users/JoeCollins/Desktop/nytproject/applabweek6/src/image.png";
+
 
 function App() {
   return (
@@ -25,7 +27,7 @@ function App() {
             </div>
           </div>
           <div class="photo">
-            <img src={require('/Users/JoeCollins/Desktop/nytproject/applabweek6/src/image.png')} />
+            <img src={(dumb)} />
           </div>
         </div>
         <div id="one" class="artbox">
@@ -44,7 +46,7 @@ function App() {
             </div>
           </div>
           <div class="photo">
-            <img src={require('/Users/JoeCollins/Desktop/nytproject/applabweek6/src/image.png')} />
+            <img src={dumb} />
           </div>
         </div>
         <div id="one" class="artbox">
@@ -63,7 +65,7 @@ function App() {
             </div>
           </div>
           <div class="photo">
-            <img src={require('/Users/JoeCollins/Desktop/nytproject/applabweek6/src/image.png')} />
+            <img src={dumb} />
           </div>
         </div>
       </div>
