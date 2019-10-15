@@ -1,7 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
 import dumb from './image.png'
+=======
+import dumb from "/Users/JoeCollins/Desktop/nytproject/applabweek6/src/image.png";
+
+>>>>>>> 0ee4ec45824e25bd2bf60050a3bd1d3662642113
 
 function App() {
   return (
@@ -26,7 +31,11 @@ function App() {
             </div>
           </div>
           <div class="photo">
+<<<<<<< HEAD
             <img src={dumb} />
+=======
+            <img src={(dumb)} />
+>>>>>>> 0ee4ec45824e25bd2bf60050a3bd1d3662642113
           </div>
         </div>
         <div id="one" class="artbox">
